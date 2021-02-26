@@ -41,3 +41,6 @@ function fitnessCard(input){
         console.log(`You don't have enough money! You need $${diff.toFixed(2)} more.`);
     }
 }
+fitnessCard(["50", "m", "23", "Gym"]);
+fitnessCard(["20", "f", "15", "Yoga"]);
+fitnessCard(["10", "m", "50", "Pilates"]);
